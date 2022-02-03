@@ -2,6 +2,74 @@ li {
     display:inline;
     float: center;
     margin: 0px 10px 0px 10px;
-  
 
+}
+.header{
+    min-height: 123vh;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+.top-nav{
+    position:absolute;
+    left:20px;
+    top:10px;
+    text-decoration: none;
+  }
+
+.button{
+    border-radius: 4px;
+    float:right;
+    background-color: #23A6F0;
+    margin: 0px 0px 0px 0px"
+}  
+
+.maintext{
+    font-size: 4vw;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.core_vaues{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    position: absolute;
+    right: 8%;
+    top: 106%;
+}
+.core_vaues .card {
+    width: 30%;
+    height: 15vw;
+    background-color: white;
+    border: none;
+    padding: 13px;
+    box-shadow: 0px 0px 4px grey;
+}
+.core_vaues .card .text {
+    font-size: 1.2vw;
+}
+.core_vaues .card .bold {
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.svg2 {
+    color: var(--blue);
+    width: 3vw;
+    height: 3vw;
+}
+.core_vaues .blue {
+    background-color: var(--blue);
+}
+.core_vaues .card .white {
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.core_vaues .card .t-white {
+    color: white;
 }
