@@ -73,3 +73,124 @@ li {
 .core_vaues .card .t-white {
     color: white;
 }
+
+section {
+    width: 100%;
+    background-color: var(--blue2);
+}
+.industry {
+    display: flex;
+    flex-direction: column;
+    height: 255vh;
+    width: 80%;
+    position: relative;
+    left: 12vw;
+}
+
+.industry .text-ind {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.industry .text-ind .bold-ind {
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.industry .text-ind .plain-ind {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: var(--grey);
+    text-align: center;
+}
+
+.industry .profiles-ind {
+    display: flex;
+    justify-content: space-between;
+    right: 20px;
+}
+.industry .profiles-ind .cards-ind {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 29vw;
+    box-shadow: 1px 1px 5px var(--grey);
+}
+.industry .profiles-ind {
+    display: flex;
+    justify-content: space-between;
+    right: 20px;
+}
+.stars .fa {
+    color: #F3CE3E;
+    margin-top: 10px;
+}
+.partners {
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-between;
+}
+.partners img {
+    width: 8%;
+    flex-direction: row;
+}
+
+.letter {
+
+    display: flex;
+    height: 5%;
+    margin-top: 5%;
+    background-image: linear-gradient(to right, #004688, #D64E89);
+
+}
+.letter .text p {
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.letter .email {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vw;
+}
+.pricing .text-pricing .plain-pricing {
+    font-size: 1.1vw;
+    color: var(--grey);
+    text-align: center;
+}
+.pricing .cards-pricing {
+    display: flex;
+    width: 80%;
+}
+.pricing .c-plain {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    border: 2px solid var(--blue);
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80vh;
+    margin-top: 2.1%;
+}
+.cash {
+    color: var(--blue);
+}
+.pricing .one {
+    font-weight: 1000;
+}
+.radio {
+    display: flex;
+    flex-direction: column;
+}
